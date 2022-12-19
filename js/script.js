@@ -86,6 +86,7 @@ function discount(){
 
     if (KMutente != '' && ageUtente != '' && ageUtente >=18 && ageUtente <65){
       document.getElementById('no-discount').style.display = "block";
+      document.getElementById('my_discount-btn').style.display = "none";
     }
   }
 } 
