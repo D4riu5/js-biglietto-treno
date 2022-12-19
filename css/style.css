@@ -1,3 +1,11 @@
-.my_box{
-    min-height: 400px;
+#underage-discount{
+    display: none;
+}
+
+#over65-discount{
+    display: none;
+}
+
+#no-discount{
+    display: none;
 }
