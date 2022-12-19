@@ -3,7 +3,6 @@ var Kmutente;
 var prezzoviaggio;
 var ageUItenteInp;
 var ageUtente;
-var prezzoviaggio;
 var prezzoviaggioFinal;
 var discountValue;
 
