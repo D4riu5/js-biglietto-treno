@@ -12,10 +12,42 @@
     <!-- CSS files -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="bg-secondary">
     <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 offset-3 my_box bg-dark text-light my-5 rounded p-3">
+                    <div class="text-center">
+                        <h2>Prezzo biglietto per km viaggiati</h2>
+                    </div>
 
-        
+                    <div class="mt-5 d-flex align-items-center">
+                        <button onclick="" class="btn btn-primary w-100 me-2" type="button-1">
+                            Inserisci chilometri che vuoi percorrere
+                        </button>
+                        <input readonly="true" value type="text" name="" id="showPWD" placeholder="i miei km" class="w-100">
+                    </div>
+
+                    <div class="mt-3 d-flex align-items-center">
+                        <button onclick="" class="btn btn-primary w-100 me-2" type="button-1">
+                            Inserisci la tua data di nascita
+                        </button>
+                        <input readonly="true" value type="text" name="" id="showPWD" placeholder="la mia età" class="w-100">
+                    </div>
+
+                    <div>
+                        <input readonly="true" value type="text" name="" id="showPWD" placeholder="Prezzo biglietto" class="w-100 my-3">
+                    </div>
+
+                    <div class="text-center my-3">
+                        <h5 class="text-danger">Congratulazioni! Essendo minorenne, hai uno sconto del 20%</h5>
+                        <h5 class="text-danger">Congratulazioni! Essendo over 65, hai uno sconto del 40%</h5>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
 
 
     </main>
