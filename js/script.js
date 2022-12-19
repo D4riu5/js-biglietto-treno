@@ -84,10 +84,14 @@ function discount(){
   
   else {
 
-    if (KMutente != '' && ageUtente != '' && ageUtente >=18 && ageUtente <65){
-      document.getElementById('no-discount').style.display = "block";
-      document.getElementById('my_discount-btn').style.display = "none";
-    }
+    if (ageUtente != '' && ageUtente >=18 && ageUtente <65){
+
+      if (KMutente > 0){
+        document.getElementById('no-discount').style.display = "block";
+        document.getElementById('my_discount-btn').style.display = "none";
+      }
+      }
+     
   }
 } 
 
@@ -99,6 +103,7 @@ function reset() {
   document.getElementById("price").value = "";
   document.getElementById('my_discount-btn').style.display = "block";
   ageUtente ='';
+  KMutente ='';
   document.getElementById('underage-discount').style.display = "none";
   document.getElementById('over65-discount').style.display = "none";
   document.getElementById('no-discount').style.display = "none";
