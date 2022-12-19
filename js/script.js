@@ -1,11 +1,11 @@
 const prezzoKM = 0.21;
-var Kmutente
-var prezzoviaggio
-var ageUItenteInp
-var ageUtente
-var prezzoviaggio
-var prezzoviaggioFinal
-var discountValue
+var Kmutente;
+var prezzoviaggio;
+var ageUItenteInp;
+var ageUtente;
+var prezzoviaggio;
+var prezzoviaggioFinal;
+var discountValue;
 
 function distanzaKM(){
   KMutente= prompt("quanti chilometri vuoi viaggiare?")
@@ -34,8 +34,8 @@ function distanzaKM(){
 }
 
 function agecheck(){
-  ageUtenteInp = prompt('quanti hanni hai?')
-  ageUtente = ageUtenteInp
+  ageUtenteInp = prompt('quanti hanni hai?');
+  ageUtente = ageUtenteInp;
 
   // has to be a number
   if (isNaN(ageUtente )){
@@ -98,7 +98,7 @@ function reset() {
   document.getElementById("age").value = "";
   document.getElementById("price").value = "";
   document.getElementById('my_discount-btn').style.display = "block";
-  ageUtente =''
+  ageUtente ='';
   document.getElementById('underage-discount').style.display = "none";
   document.getElementById('over65-discount').style.display = "none";
   document.getElementById('no-discount').style.display = "none";
